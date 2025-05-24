@@ -1,0 +1,156 @@
+
+.footer {
+    min-height: 448px;
+    position: relative;
+    z-index: 2;
+    background: var(--black);
+    border-radius: 32px 32px 0 0;
+    padding: 80px 0 0;
+}
+
+.footer-bottom-title {
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    font-size: 208px;
+    line-height: 120%;
+    color: var(--white);
+    opacity: .1;
+
+
+}
+
+
+.footer-menu-list {
+    gap: 18px;
+}
+
+.footer-menu-list .menu-link {
+    color: var(--white);
+}
+
+.footer-menu-list .menu-link:hover {
+    color: var(--orange);
+}
+
+.footer-body {
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.footer-actions {
+    gap: 12px;
+}
+
+.footer-actions .btn-login {
+    text-align: center;
+    background: var(--white);
+    color: var(--black);
+    transition: 0.3s ease-in-out;
+    padding: 12px 29px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+}
+
+.footer-clue {
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--gray);
+    text-align: center;
+
+}
+
+
+@media (max-width: 1500px) {
+
+}
+
+@media (max-width: 1400px) {
+
+
+}
+
+@media (max-width: 1200px) {
+    .footer-bottom-title {
+        font-size: 150px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .footer-menu-list .menu-item {
+        width: unset;
+    }
+
+    .footer-menu-list .menu-link {
+        padding: 0;
+        border-bottom: 0;
+    }
+
+    .footer-bottom-title {
+        font-size: 100px;
+        bottom: -40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 576px) {
+    .footer-body {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .footer-actions button {
+        width: 100%;
+    }
+
+
+    .footer-bottom-title {
+        font-size: 60px;
+        line-height: 120%;
+        bottom: -12px;
+    }
+
+    .footer-actions {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .footer-actions .btn-register i {
+        display: none;
+    }
+
+    .footer-actions .btn-register {
+        justify-content: center;
+    }
+
+    .footer-menu-list {
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .footer {
+        min-height: 588px;
+        padding: 60px 0 0;
+    }
+
+}
+
+@media (max-width: 456px) {
+
+
+}

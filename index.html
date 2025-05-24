@@ -1,0 +1,966 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MultRelaityAI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header-body G-align-center">
+                <a href="index.html" class="header-logo G-flex">
+                    <img class="img-desktop" src="assets/images/logo.svg" alt="logo">
+                    <img class="img-mobile" src="assets/images/logoMobile.svg" alt="">
+                </a>
+
+                <nav class="menu">
+
+                    <ul class='menu-list G-align-center'>
+                        <li class="menu-cnt-mobile">
+                            <img src="assets/images/heroTitleDecor.webp" alt="">
+                            <span><b class="text-orange">AI</b> мультфильмы</span>
+                        </li>
+                        <li class="menu-item">
+                            <a class='menu-link' href="#possibilities">Возможности</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#reviews">Отзывы</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="header-mobile-actions">
+                            <button class="btn-login">Вход</button>
+                        </li>
+                        <li class="header-mobile-actions">
+                            <button class="btn-register G-center">
+                                <span>Регистрация</span>
+                            </button>
+                        </li>
+                    </ul>
+
+
+                </nav>
+
+                <div class="header-actions G-align-center">
+                    <button class="btn-login">Вход</button>
+                    <button class="btn-register G-align-center">
+                        <span>Регистрация</span>
+                        <i class="icon icon-arrow"></i>
+                    </button>
+                </div>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-bg"></div>
+    </header>
+
+    <main class="main">
+
+        <section class="hero-section animate-on-scroll fade-up">
+            <div class="container">
+                <div class="hero-body">
+                    <div class="hero-info animate-on-scroll fade-left G-column-center">
+
+                        <h1 class="">Нейросеть для <span class="text-orange">создания</span> <span
+                                class="mobile-text-wrap">мультфильмов</span> <span
+                                class="mobile-text-wrap text-gray">(и не только)</span></h1>
+                        <button class="hero-btn btn-orange G-align-center">
+                             <span class="icon-bg-hover G-center">
+                                 <i class="icon icon-arrow"></i>
+                             </span>
+                            <span>Генерировать бесплатно</span>
+                            <span class="icon-bg G-center">
+                                 <i class="icon icon-arrow"></i>
+                             </span>
+                        </button>
+
+                        <div class="hero-title-decor animate-on-scroll fade-right G-flex">
+                            <img src="assets/images/heroTitleDecor.webp" alt="">
+                        </div>
+
+                        <p>БЕСПЛАТНО</p>
+                    </div>
+
+                    <div class="hero-media animate-on-scroll fade-up G-center">
+                        <img class="img-desktop" src="assets/images/heroMedia.webp" alt="">
+                        <img class="img-mobile" src="assets/images/heroMediaMobile.webp" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="services-section">
+            <div class="container">
+                <div class="services-body">
+                    <h2 class="section-title animate-on-scroll fade-in-left ">Делай круче, <span
+                            class="mobile-text-wrap">чем Disney и Pixar</span></h2>
+                    <p class="section-sub-title animate-on-scroll fade-right">Весь функционал анимационных <span
+                            class="text-wrap">студий у тебя под рукой</span>
+                    </p>
+                    <div class="services-swiper animate-on-scroll fade-up  swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide animate-on-scroll zoom-pop">
+                                <div class="service-item G-flex-column">
+                                    <h2 class="block-title animate-on-scroll fade-up"><span
+                                            class="text-gray">Создавай</span> <span
+                                            class="text-wrap">персонажей</span></h2>
+                                    <p class="block-text animate-on-scroll fade-up">Опиши внешность —
+                                        <span class="text-wrap">и получи героя, любого.</span> Хоть русалку-ниндзя</p>
+                                    <button class="service-btn animate-on-scroll fade-right G-align-center">
+                                       <span class="icon-bg G-center">
+                                         <i class="icon icon-arrow"></i>
+                                        </span>
+                                    </button>
+                                    <div class="service-item-img animate-on-scroll zoom-pop service-img--one G-flex">
+                                        <img src="assets/images/serviceItemImg.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide animate-on-scroll zoom-pop">
+                                <div class="service-item service-average-item G-flex-column">
+                                    <h2 class="block-title animate-on-scroll fade-up"><span
+                                            class="text-gray">Придумывай</span> <span
+                                            class="text-wrap">свой сюжет</span></h2>
+                                    <p class="block-text animate-on-scroll fade-up">
+                                        Романтика, хоррор <span class="text-wrap">или приключения? Легко!</span> И за
+                                        секунды
+                                    </p>
+                                    <div class="service-item-img  service-img--two G-flex">
+                                        <img src="assets/images/serviceItemImg2.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide animate-on-scroll zoom-pop">
+                                <div class="service-item G-flex-column">
+                                    <h2 class="block-title animate-on-scroll fade-up"><span
+                                            class="text-gray">Анимируй</span> <span
+                                            class="text-wrap">движения</span></h2>
+                                    <p class="block-text animate-on-scroll fade-up">Герои, которые бегают, машут <span
+                                            class="text-wrap">лапами и делают сальто?</span>
+                                        Всё, что захочешь!</p>
+                                    <button class="service-btn animate-on-scroll fade-right G-align-center">
+                                             <span class="icon-bg G-center">
+                                               <i class="icon icon-arrow"></i>
+                                             </span>
+                                    </button>
+                                    <div class="service-item-img animate-on-scroll zoom-pop service-img--tree G-flex">
+                                        <img src="assets/images/serviceItemImg3.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="services-pagination swiper-pagination"></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="possibilities" class="possibilities-section section">
+            <div class="container">
+                <div class="possibilities-body">
+                    <div class="possibilities-titles G-center">
+                        <h2 class="section-title animate-on-scroll fade-in-left">Нужный инструментарий — <span
+                                class="mobile-text-wrap">здесь</span></h2>
+                        <p>ФАНТАЗИРУЙ</p>
+                    </div>
+
+                    <div class="possibilities-items block-cnt G-flex-column">
+                        <div class="possibilities-column animate-on-scroll fade-up G-flex">
+                            <div class="possibilities-text-item animate-on-scroll fade-left dark-orange-item G-flex-column">
+                                <h3 class="block-title">Дизайн</h3>
+                                <p class="block-text">Опиши, кого хочешь видеть, и получи стильного <span
+                                        class="desktop-text-wrap">героя, фон или целую сцену за секунды.</span>
+                                    Вампирша в продуктовом? Легко</p>
+
+                                <div class="possibilities-item-icon  animate-on-scroll fade-up G-flex">
+                                    <img src="assets/images/possibilitiesIcon1.webp" alt="">
+                                </div>
+
+                            </div>
+                            <div class="possibilities-img-item animate-on-scroll zoom-pop G-flex">
+                                <img src="assets/images/possibilitiesImg.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="possibilities-column animate-on-scroll fade-up G-flex">
+                            <div class="possibilities-img-item  animate-on-scroll zoom-pop G-flex">
+                                <img src="assets/images/possibilitiesImg2.webp" alt="">
+                            </div>
+                            <div class="possibilities-text-item animate-on-scroll fade-left gray-item G-flex-column">
+                                <h3 class="block-title">Движения</h3>
+                                <p class="block-text">Нейросеть сама оживит персонажей: <span class="desktop-text-wrap">от мимики и жестов до боевых сцен.</span>
+                                    Всё происходит автоматически</p>
+
+                                <div class="possibilities-item-icon animate-on-scroll fade-up G-flex">
+                                    <img src="assets/images/possibilitiesIcon2.webp" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="possibilities-column animate-on-scroll fade-up G-flex">
+                            <div class="possibilities-text-item animate-on-scroll fade-left orange-item G-flex-column">
+                                <h3 class="block-title">Музыка</h3>
+                                <p class="block-text">Создаём музыку под настроение сцены: <span
+                                        class="desktop-text-wrap">от напряжённых струн до лёгких
+                                мотивов.</span> Никаких авторских прав, только твой звук.</p>
+
+                                <div class="possibilities-item-icon animate-on-scroll fade-up G-flex">
+                                    <img src="assets/images/possibilitiesIcon3.webp" alt="">
+                                </div>
+
+                            </div>
+
+                            <div class="possibilities-img-item animate-on-scroll zoom-pop G-flex">
+                                <img src="assets/images/possibilitiesImg3.webp" alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="possibilities-column animate-on-scroll fade-up G-flex">
+                            <div class="possibilities-img-item animate-on-scroll zoom-pop G-flex">
+                                <img src="assets/images/possibilitiesImg4.webp" alt="">
+                            </div>
+
+                            <div class="possibilities-text-item animate-on-scroll fade-left dark-gray-item G-flex-column">
+                                <h3 class="block-title">Голос</h3>
+                                <p class="block-text">
+                                    Выбирай голос, тембр, эмоции —
+                                    <span class="desktop-text-wrap">и даже акцент. Хоть драму, хоть комедию.</span>
+                                    От шёпота
+                                    до крика: всё возможно.
+                                </p>
+
+                                <div class="possibilities-item-icon animate-on-scroll fade-up  G-flex">
+                                    <img src="assets/images/possibilitiesIcon4.webp" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="possibilities-bnt animate-on-scroll zoom-pop delay-2 G-center">
+                        <button class=" btn-orange G-align-center">
+                               <span class="icon-bg-hover G-center">
+                                 <i class="icon icon-arrow"></i>
+                             </span>
+                            <span>Генерировать бесплатно</span>
+                            <span class="icon-bg G-center">
+                                 <i class="icon icon-arrow"></i>
+                             </span>
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="platform-section section">
+            <div class="container">
+                <div class="platform-body">
+                    <div class="platform-mobile-title animate-on-scroll fade-left">
+                        <h2 class="section-title">Платформа, где рождаются <span class="mobile-text-wrap">истории.
+                           Придумай. Создай.</span> Оживи.</h2>
+                    </div>
+                    <div class="platform-cnt G-flex">
+                        <div class="platform-info animate-on-scroll fade-left">
+                            <h2 class="section-title animate-on-scroll fade-left">Платформа, где рождаются истории.
+                                <span class="text-wrap">Придумай. Создай. Оживи.</span></h2>
+
+                            <div class="platform-info-texts animate-on-scroll fade-up G-flex-column">
+                                <p>
+                                    С нейросетью ты можешь делать всё, что вздумается: создавать уникальных персонажей,
+                                    придумывать миры, писать диалоги, задавать музыку и даже ставить анимацию — одним
+                                    кликом.
+                                </p>
+                                <p>
+                                    <span class="text-bold">Здесь не нужен опыт. Только фантазия.</span> <span
+                                        class="text-wrap">Ты — режиссёр, сценарист, художник</span>
+                                    и продюсер в одном лице
+                                </p>
+                            </div>
+                        </div>
+                        <div class="platform-media animate-on-scroll fade-right G-flex">
+
+                            <div class="platform-media-picture animate-on-scroll zoom-pop G-flex">
+                                <img src="assets/images/platformMedia.webp" alt="">
+                            </div>
+
+                            <div class="platform-media-icon animate-on-scroll fade-up G-flex">
+                                <img src="assets/images/platformMediaIcon.webp" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="platform-tags animate-on-scroll fade-up G-align-center">
+                        <div class="platform-tag animate-on-scroll zoom-pop delay-1">
+                            <h4>1 млн +</h4>
+                            <p>пользователей <span class="text-wrap">сервиса</span></p>
+                        </div>
+                        <div class="platform-tag animate-on-scroll zoom-pop delay-2">
+                            <h4>12к +</h4>
+                            <p>завершённых <span class="text-wrap">мультиков</span></p>
+                        </div>
+                        <div class="platform-tag animate-on-scroll zoom-pop delay-3">
+                            <h4>98%</h4>
+                            <p>повторных генераций <span class="text-wrap">новых проектов</span></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="reviews" class="reviews-section section">
+            <div class="container">
+                <div class="reviews-body">
+                    <div class="reviews-titles G-center">
+                        <h2 class="section-title animate-on-scroll fade-up">О нас говорят не только <span
+                                class="mobile-text-wrap">аниматоры</span></h2>
+                        <p>БЛАГОДАРНОСТИ</p>
+                    </div>
+
+                    <div class="reviews-box  G-justify-between block-cnt">
+
+                        <div data-id="reviews1" class="reviews-left-item animate-on-scroll fade-left">
+                            <div class="reviews-left-img">
+                                <img src="assets/images/reviews1.webp" alt="">
+                            </div>
+                            <div class="reviews-left-info">
+                                <div class="reviews-item-header G-justify-between">
+                                    <div class="reviews-author">
+                                        <h4 class="">Анна К.</h4>
+                                    </div>
+                                    <div class="reviews-icon G-flex">
+                                        <img src="assets/images/estimation1.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="reviews-item-text">
+                                    Я честно не думала, что когда‑нибудь смогу «рисовать» мультфильмы без планшета. Прям
+                                    какая‑то магия: пишешь, что хочешь, — и через пару минут твои идеи оживают.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-id="reviews2" class="reviews-left-item animate-on-scroll fade-left">
+                            <div class="reviews-left-img">
+                                <img src="assets/images/reviews2.webp" alt="">
+                            </div>
+                            <div class="reviews-left-info">
+                                <div class="reviews-item-header G-justify-between">
+                                    <div class="reviews-author">
+                                        <h4>Дмитрий П.</h4>
+                                    </div>
+                                    <div class="reviews-icon G-flex">
+                                        <img src="assets/images/estimation1.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="reviews-item-text">
+                                    Я делаю короткие анимации для Reels — и народ в шоке, что это всё сгенерено.
+                                    Даже не верят, что это я сама сделала, без студии и монтажёра.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-id="reviews3" class="reviews-left-item animate-on-scroll fade-left">
+                            <div class="reviews-left-img G-flex">
+                                <img src="assets/images/reviews3.webp" alt="image">
+                            </div>
+                            <div class="reviews-left-info">
+                                <div class="reviews-item-header G-justify-between">
+                                    <div class="reviews-author">
+                                        <h4>Александра В.</h4>
+                                    </div>
+                                    <div class="reviews-icon G-flex">
+                                        <img src="assets/images/estimation1.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="reviews-item-text">
+                                    Иногда, чтобы расслабиться, просто захожу и собираю сценки. Это как медитация.
+                                    И при этом — всё выглядит суперстильно и атмосферно.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-id="reviews4" class="reviews-left-item animate-on-scroll fade-left">
+                            <div class="reviews-left-img G-flex">
+                                <img src="assets/images/reviews4.webp" alt="image">
+                            </div>
+                            <div class="reviews-left-info">
+                                <div class="reviews-item-header G-justify-between">
+                                    <div class="reviews-author">
+                                        <h4>Олег С.</h4>
+                                    </div>
+                                    <div class="reviews-icon G-flex">
+                                        <img src="assets/images/estimation1.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="reviews-item-text">
+                                    Я просто хотел сделать прикольный мультик про своего персонажа из ролевки —
+                                    а в итоге залип на три часа и сделал мини-сериал. Это очень затягивает и реально
+                                    работает.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-id="reviews5" class="reviews-left-item animate-on-scroll fade-left">
+                            <div class="reviews-left-img G-flex">
+                                <img src="assets/images/reviews5.webp" alt="image">
+                            </div>
+                            <div class="reviews-left-info">
+                                <div class="reviews-item-header G-justify-between">
+                                    <div class="reviews-author">
+                                        <h4>Анастасия С.</h4>
+                                    </div>
+                                    <div class="reviews-icon G-flex">
+                                        <img src="assets/images/estimation1.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="reviews-item-text">
+                                    Писала сценарий для клиента, скинула в Revix на тест — и он сразу утвердил, увидев
+                                    сцену в движении. Ни одного правки. Вот это я понимаю эффект.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-id="reviews6" class="reviews-left-item animate-on-scroll fade-left">
+                            <div class="reviews-left-img G-flex">
+                                <img src="assets/images/reviews6.webp" alt="image">
+                            </div>
+                            <div class="reviews-left-info">
+                                <div class="reviews-item-header G-justify-between">
+                                    <div class="reviews-author">
+                                        <h4>Роман З.</h4>
+                                    </div>
+                                    <div class="reviews-icon G-flex">
+                                        <img src="assets/images/estimation1.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="reviews-item-text">
+                                    Я просто ввёл «кот-ниндзя дерётся с пылесосом» — и это появилось. Серьёзно.
+                                    Нейросети — вы что там, с ума сошли? Это офигенно.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-id="reviews7" class="reviews-left-item animate-on-scroll fade-left">
+                            <div class="reviews-left-img G-flex">
+                                <img src="assets/images/reviews7.webp" alt="image">
+                            </div>
+                            <div class="reviews-left-info">
+                                <div class="reviews-item-header G-justify-between">
+                                    <div class="reviews-author">
+                                        <h4>Виталий М.</h4>
+                                    </div>
+                                    <div class="reviews-icon G-flex">
+                                        <img src="assets/images/estimation1.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="reviews-item-text">
+                                    Делал визуал для своего трека. Получилось круче, чем я представлял. Теперь думаю
+                                    клип сделать весь в таком стиле — это реально вдохновляет.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-id="reviews8" class="reviews-left-item animate-on-scroll fade-left">
+                            <div class="reviews-left-img G-flex">
+                                <img src="assets/images/reviews8.webp" alt="image">
+                            </div>
+                            <div class="reviews-left-info">
+                                <div class="reviews-item-header G-justify-between">
+                                    <div class="reviews-author">
+                                        <h4>Полина В.</h4>
+                                    </div>
+                                    <div class="reviews-icon G-flex">
+                                        <img src="assets/images/estimation1.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="reviews-item-text">
+                                    Делаем с детьми мультфильмы по темам урока — им нравится, мне удобно. И никакой
+                                    мороки с монтажом или спецпрограммами.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-id="reviews9" class="reviews-left-item animate-on-scroll fade-left">
+                            <div class="reviews-left-img G-flex">
+                                <img src="assets/images/reviews9.webp" alt="image">
+                            </div>
+                            <div class="reviews-left-info">
+                                <div class="reviews-item-header G-justify-between">
+                                    <div class="reviews-author">
+                                        <h4>Артём Ч.</h4>
+                                    </div>
+                                    <div class="reviews-icon G-flex">
+                                        <img src="assets/images/estimation1.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="reviews-item-text">
+                                    У меня был затык с идеями, но тут просто сел и начал вводить безумные сюжеты —
+                                    и оно реально оживает. Мозг сразу включается, вдохновляет жёстко.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper reviews-swiper animate-on-scroll fade-up">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide ">
+                                    <div data-id="reviews1" class="reviews-item animate-on-scroll zoom-pop G-flex">
+                                        <div class="reviews-item-img">
+                                            <img src="assets/images/reviews1.webp" alt="">
+                                        </div>
+                                        <div class="reviews-item-info">
+                                            <div class="reviews-item-header G-justify-between">
+                                                <div class="reviews-author">
+                                                    <h4 class="">Анна К.</h4>
+                                                </div>
+                                                <div class="reviews-icon G-flex">
+                                                    <img src="assets/images/estimation1.svg" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="reviews-item-text">
+                                                Я честно не думала, что когда‑нибудь смогу «рисовать» мультфильмы
+                                                без планшета. Прям какая‑то магия: пишешь, что хочешь, — и через пару
+                                                минут твои идеи оживают.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div data-id="reviews2" class="reviews-item G-flex animate-on-scroll zoom-pop">
+                                        <div class="reviews-item-img G-flex">
+                                            <img src="assets/images/reviews2.webp" alt="image">
+                                        </div>
+                                        <div class="reviews-item-info">
+                                            <div class="reviews-item-header G-justify-between">
+                                                <div class="reviews-author">
+                                                    <h4>Дмитрий П.</h4>
+                                                </div>
+                                                <div class="reviews-icon G-flex">
+                                                    <img src="assets/images/estimation1.svg" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="reviews-item-text">
+                                                Я делаю короткие анимации для Reels — и народ в шоке,
+                                                что это всё сгенерено. Даже не верят, что это я сама сделала, без студии
+                                                и монтажёра.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div data-id="reviews3" class="reviews-item G-flex animate-on-scroll zoom-pop">
+                                        <div class="reviews-item-img G-flex">
+                                            <img src="assets/images/reviews3.webp" alt="image">
+                                        </div>
+                                        <div class="reviews-item-info">
+                                            <div class="reviews-item-header G-justify-between">
+                                                <div class="reviews-author">
+                                                    <h4>Александра В.</h4>
+                                                </div>
+                                                <div class="reviews-icon G-flex">
+                                                    <img src="assets/images/estimation1.svg" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="reviews-item-text">
+                                                Иногда, чтобы расслабиться, просто захожу и собираю сценки.
+                                                Это как медитация. И при этом — всё выглядит суперстильно и атмосферно.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div data-id="reviews4" class="reviews-item G-flex animate-on-scroll zoom-pop">
+                                        <div class="reviews-item-img G-flex">
+                                            <img src="assets/images/reviews4.webp" alt="image">
+                                        </div>
+                                        <div class="reviews-item-info">
+                                            <div class="reviews-item-header G-justify-between">
+                                                <div class="reviews-author">
+                                                    <h4>Олег С.</h4>
+                                                </div>
+                                                <div class="reviews-icon G-flex">
+                                                    <img src="assets/images/estimation1.svg" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="reviews-item-text">
+                                                Я просто хотел сделать прикольный мультик про своего персонажа
+                                                из ролевки — а в итоге залип на три часа и сделал мини-сериал. Это очень
+                                                затягивает и реально работает.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div data-id="reviews5" class="reviews-item G-flex animate-on-scroll zoom-pop">
+                                        <div class="reviews-item-img G-flex">
+                                            <img src="assets/images/reviews5.webp" alt="image">
+                                        </div>
+                                        <div class="reviews-item-info">
+                                            <div class="reviews-item-header G-justify-between">
+                                                <div class="reviews-author">
+                                                    <h4>Анастасия С.</h4>
+                                                </div>
+                                                <div class="reviews-icon G-flex">
+                                                    <img src="assets/images/estimation1.svg" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="reviews-item-text">
+                                                Писала сценарий для клиента, скинула в Revix на тест — и он сразу
+                                                утвердил, увидев
+                                                сцену в движении. Ни одного правки. Вот это я понимаю эффект.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div data-id="reviews6" class="reviews-item G-flex animate-on-scroll zoom-pop">
+                                        <div class="reviews-item-img G-flex">
+                                            <img src="assets/images/reviews6.webp" alt="image">
+                                        </div>
+                                        <div class="reviews-item-info">
+                                            <div class="reviews-item-header G-justify-between">
+                                                <div class="reviews-author">
+                                                    <h4>Роман З.</h4>
+                                                </div>
+                                                <div class="reviews-icon G-flex">
+                                                    <img src="assets/images/estimation1.svg" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="reviews-item-text">
+                                                Я просто ввёл «кот-ниндзя дерётся с пылесосом» — и это появилось.
+                                                Серьёзно. Нейросети — вы что там, с ума сошли? Это офигенно.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div data-id="reviews7" class="reviews-item G-flex animate-on-scroll zoom-pop">
+                                        <div class="reviews-item-img G-flex">
+                                            <img src="assets/images/reviews7.webp" alt="image">
+                                        </div>
+                                        <div class="reviews-item-info">
+                                            <div class="reviews-item-header G-justify-between">
+                                                <div class="reviews-author">
+                                                    <h4>Виталий М.</h4>
+                                                </div>
+                                                <div class="reviews-icon G-flex">
+                                                    <img src="assets/images/estimation1.svg" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="reviews-item-text">
+                                                Делал визуал для своего трека. Получилось круче, чем я представлял.
+                                                Теперь думаю клип сделать весь в таком стиле — это реально вдохновляет.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div data-id="reviews8" class="reviews-item G-flex animate-on-scroll zoom-pop">
+                                        <div class="reviews-item-img G-flex">
+                                            <img src="assets/images/reviews8.webp" alt="image">
+                                        </div>
+                                        <div class="reviews-item-info">
+                                            <div class="reviews-item-header G-justify-between">
+                                                <div class="reviews-author">
+                                                    <h4>Полина В.</h4>
+                                                </div>
+                                                <div class="reviews-icon G-flex">
+                                                    <img src="assets/images/estimation1.svg" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="reviews-item-text">
+                                                Делаем с детьми мультфильмы по темам урока — им нравится, мне удобно.
+                                                И никакой мороки с монтажом или спецпрограммами.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div data-id="reviews9" class="reviews-item G-flex animate-on-scroll zoom-pop">
+                                        <div class="reviews-item-img G-flex">
+                                            <img src="assets/images/reviews9.webp" alt="image">
+                                        </div>
+                                        <div class="reviews-item-info">
+                                            <div class="reviews-item-header G-justify-between">
+                                                <div class="reviews-author">
+                                                    <h4>Артём Ч.</h4>
+                                                </div>
+                                                <div class="reviews-icon G-flex">
+                                                    <img src="assets/images/estimation1.svg" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div class="reviews-item-text">
+                                                У меня был затык с идеями, но тут просто сел и начал вводить безумные
+                                                сюжеты — и оно реально оживает. Мозг сразу включается, вдохновляет
+                                                жёстко.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="reviews-pagination animate-on-scroll fade-up delay-1 swiper-pagination"></div>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section class="trust-section">
+            <div class="container">
+                <div class="trust-body G-flex">
+
+                    <div class="trust-info animate-on-scroll fade-left">
+                        <h3 class="animate-on-scroll fade-up">
+                            Преврати фантазию <span class="text-wrap">в свой <span
+                                class="text-orange">мультик</span></span>
+                        </h3>
+                        <p class="animate-on-scroll fade-up">
+                            Открой нейросеть, вбей идею и смотри, <span
+                                class="desktop-text-wrap">как она превращается <span class="mobile-text-wrap">в анимацию!</span></span>
+                        </p>
+
+                        <button class="trust-btn btn-orange G-align-center">
+                               <span class="icon-bg-hover G-center">
+                                 <i class="icon icon-arrow"></i>
+                             </span>
+                            <span>Генерировать бесплатно</span>
+                            <span class="icon-bg G-center">
+                                 <i class="icon icon-arrow"></i>
+                             </span>
+                        </button>
+
+                    </div>
+
+                    <div class="trust-media animate-on-scroll fade-right G-flex">
+                        <img class="img-desktop" src="assets/images/trustMedia.webp" alt="">
+                        <img class="img-mobile" src="assets/images/trustMediaMobile.webp" alt="">
+                    </div>
+                </div>
+
+                <div class="trust-btn-mobile animate-on-scroll zoom-pop">
+                    <button class=" btn-orange G-align-center">
+                        <span>Генерировать бесплатно</span>
+                        <span class="icon-bg G-center">
+                                 <i class="icon icon-arrow"></i>
+                             </span>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="faq" class="faq-section section">
+            <div class="container">
+                <div class="faq-body ">
+                    <div class="faq-titles G-center">
+                        <h2 class="section-title">FAQ</h2>
+                        <p>ответы</p>
+                    </div>
+
+
+                    <div class="faq-items block-cnt G-flex-column">
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Что это вообще за сервис?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Это онлайн-платформа, где ты можешь создавать мультфильмы с помощью нейросети.
+                                    Персонажи, сюжет, голос, музыка, анимация — всё в одном месте. Не нужны навыки
+                                    рисования или монтажа.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Нужно ли уметь анимировать?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Нет! Ты просто описываешь, что хочешь получить, а нейросеть всё делает за тебя.
+                                    Серьёзно — это проще, чем собрать мем в редакторе.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Можно ли озвучить героев?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Да! Ты выбираешь голос, интонацию и даже эмоции — всё сгенерируется автоматически.
+                                    Или загрузи свою озвучку, если хочешь.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Как делиться результатом?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Мультфильм можно сохранить, скачать, отправить другу или выложить в соцсети. Готовый
+                                    ролик — твой.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Можно использовать мультики в коммерческих проектах?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Да, при расширенной лицензии. Можно делать контент для YouTube, рекламы, курсов
+                                    и даже NFT.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Подходит ли это для детей?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Да! Интерфейс простой и безопасный, можно творить всей семьёй. А ещё это отличный
+                                    способ учиться и играть
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+    <footer class="footer animate-on-scroll fade-up section">
+        <div class="container">
+            <div class="footer-body G-justify-between">
+
+                <nav class="footer-menu animate-on-scroll fade-left">
+                    <ul class='footer-menu-list G-align-center'>
+                        <li class="menu-item">
+                            <a class='menu-link' href="#possibilities">Возможности</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#reviews">Отзывы</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#faq">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="footer-actions animate-on-scroll fade-right G-align-center">
+                    <button class="btn-login">Вход</button>
+                    <button class="btn-register G-align-center">
+                        <span>Регистрация</span>
+                        <i class="icon icon-arrow"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <p class="footer-clue animate-on-scroll fade-up delay-1">
+                © 2025 GPT-4.
+                Все права защищены.
+            </p>
+
+        </div>
+
+
+        <h4 class="footer-bottom-title ">MultRelaityAI</h4>
+    </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="assets/js/swiper.js"></script>
+<script src="assets/js/index.js"></script>
+
+</body>
+</html>
+
+
+
+
