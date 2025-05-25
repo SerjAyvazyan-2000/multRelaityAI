@@ -53,7 +53,7 @@ main {
 
 
 .btn-orange {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 15px;
     background: var(--orange-gradient);
     font-weight: 600;
     font-size: 18px;
